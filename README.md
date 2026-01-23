@@ -52,20 +52,8 @@
 - **坐标转换**：WGS-84 → GCJ-02（高德地图坐标系）
 - **轨迹记录**：自动保存至本地文件，支持历史回放
 
-### 3. 智能路径规划
-```python
-# 牛耕式遍历算法
-def generate_boustrophedon_path(width, height, spacing):
-    """
-    生成智能巡逻路径
-    width: 区域宽度(m)
-    height: 区域长度(m) 
-    spacing: 行间距(m)
-    return: 航点序列 [[lon1, lat1], [lon2, lat2], ...]
-    """
-```
 
-### 4. 可视化监控平台
+### 3. 可视化监控平台
 - **实时视频流**：带AI识别框的MJPEG流
 - **交互式地图**：Folium地图，支持缩放、测量、标记
 - **数据管理**：GPS数据导入/导出，截图保存
